@@ -1,0 +1,223 @@
+openapi: 3.0.0
+info:
+  title: Device API
+  description: API for managing devices
+  version: 1.0.0
+paths:
+  /api/auth/register:
+    post:
+      summary: Register a new user
+      tags:
+        - Auth
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                  example: "john_doe"
+                email:
+                  type: string
+                  example: "john@example.com"
+                password:
+                  type: string
+                  example: "password123"
+      responses:
+        201:
+          description: User registered successfully
+        400:
+          description: Bad request (validation error)
+        500:
+          description: Internal server error
+
+  /api/auth/login:
+    post:
+      summary: Login a user
+      tags:
+        - Auth
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: "john@example.com"
+                password:
+                  type: string
+                  example: "password123"
+      responses:
+        200:
+          description: Login successful, returns a JWT token
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                    example: "your.jwt.token"
+        400:
+          description: Bad request (invalid credentials)
+        500:
+          description: Internal server error
+
+  /api/user/{userId}:
+    get:
+      summary: Get user profile
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          description: ID of the user to retrieve
+          schema:
+            type: string
+            example: "user123"
+      security:
+        - BearerAuth: []
+      responses:
+        200:
+          description: User profile retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        401:
+          description: Unauthorized (User not authenticated)
+        404:
+          description: User not found
+        500:
+          description: Internal server error
+
+    patch:
+      summary: Update user profile
+      tags:
+        - User
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          description: ID of the user to update
+          schema:
+            type: string
+            example: "user123"
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                  example: "john_doe_updated"
+                profileImage:
+                  type: string
+                  example: "https://example.com/profile.jpg"
+      responses:
+        200:
+          description: User profile updated successfully
+        400:
+          description: Bad request (validation error)
+        401:
+          description: Unauthorized (User not authenticated)
+        500:
+          description: Internal server error
+
+  /api/device:
+    get:
+      summary: Get list of devices for the authenticated user
+      tags:
+        - Devices
+      security:
+        - BearerAuth: []
+      responses:
+        200:
+          description: List of devices
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Device"
+        401:
+          description: Unauthorized (User not authenticated)
+        500:
+          description: Internal server error
+
+  /api/device/logout:
+    post:
+      summary: Logout a device for the authenticated user
+      tags:
+        - Devices
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                deviceId:
+                  type: string
+                  description: ID of the device to logout
+                  example: "device123"
+      responses:
+        200:
+          description: Device logged out successfully
+        401:
+          description: Unauthorized (User not authenticated)
+        500:
+          description: Internal server error
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    Device:
+      type: object
+      properties:
+        deviceId:
+          type: string
+          example: "device123"
+        deviceName:
+          type: string
+          example: "iPhone 13"
+        lastUsed:
+          type: string
+          example: "2022-12-01T12:00:00Z"
+    User:
+      type: object
+      properties:
+        userId:
+          type: string
+          example: "user123"
+        username:
+          type: string
+          example: "john_doe"
+        email:
+          type: string
+          example: "john@example.com"
+        profileImage:
+          type: string
+          example: "https://example.com/profile.jpg"
+        isVerified:
+          type: boolean
+          example: true
+        devices:
+          type: array
+          items:
+            $ref: "#/components/schemas/Device"
