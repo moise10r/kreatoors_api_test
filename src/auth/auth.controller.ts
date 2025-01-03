@@ -46,9 +46,14 @@ export class AuthController {
 
   public login = async (req: Request, res: Response): Promise<void> => {
     try {
-      const { email, password, deviceId } = req.body;
+      const { email, password, deviceId, deviceName } = req.body;
 
-      const token = await this.authService.login(email, password, deviceId);
+      const token = await this.authService.login(
+        email,
+        password,
+        deviceId,
+        deviceName
+      );
 
       res.setHeader("Authorization", `Bearer ${token}`);
       res.status(200).json({ message: "Login successful" });
