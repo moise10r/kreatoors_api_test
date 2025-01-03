@@ -1,4 +1,3 @@
-// src/device/device.module.ts
 import { Router } from "express";
 import { DeviceRouter } from "./device.routes";
 

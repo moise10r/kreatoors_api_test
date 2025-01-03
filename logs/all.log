@@ -352,3 +352,148 @@
 [35m[39m
 2025-01-03 15:35:57:3557 [35mhttp[39m: [35mGET /api/device 401 50 - 1.046 ms[39m
 [35m[39m
+2025-01-03 15:36:52:3652 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:36:52:3652 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:42:47:4247 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:49:31:4931 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:49:31:4931 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:49:33:4933 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:49:33:4933 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:50:25:5025 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:50:25:5025 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:50:25:5025 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:50:35:5035 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:50:50:5050 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:50:50:5050 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:51:04:514 [35mhttp[39m: [35mGET /api-docs 301 158 - 1.764 ms[39m
+[35m[39m
+2025-01-03 15:51:04:514 [35mhttp[39m: [35mGET /api-docs/ 200 3106 - 1.079 ms[39m
+[35m[39m
+2025-01-03 15:51:04:514 [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 200 1425 - 0.143 ms[39m
+[35m[39m
+2025-01-03 15:51:04:514 [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 200 152072 - 5.193 ms[39m
+[35m[39m
+2025-01-03 15:51:04:514 [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 200 230007 - 3.258 ms[39m
+[35m[39m
+2025-01-03 15:51:04:514 [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 200 1426050 - 4.020 ms[39m
+[35m[39m
+2025-01-03 15:51:04:514 [35mhttp[39m: [35mGET / 404 139 - 1.289 ms[39m
+[35m[39m
+2025-01-03 15:51:04:514 [35mhttp[39m: [35mGET /api-docs/favicon-32x32.png 200 628 - 1.316 ms[39m
+[35m[39m
+2025-01-03 15:51:51:5151 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:51:51:5151 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:51:54:5154 [35mhttp[39m: [35mGET /api-docs/ 304 - - 5.704 ms[39m
+[35m[39m
+2025-01-03 15:51:54:5154 [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 304 - - 0.919 ms[39m
+[35m[39m
+2025-01-03 15:51:54:5154 [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 304 - - 0.273 ms[39m
+[35m[39m
+2025-01-03 15:51:54:5154 [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 304 - - 0.368 ms[39m
+[35m[39m
+2025-01-03 15:51:54:5154 [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 200 4261 - 0.335 ms[39m
+[35m[39m
+2025-01-03 15:51:54:5154 [35mhttp[39m: [35mGET /api-docs/favicon-32x32.png 304 - - 1.961 ms[39m
+[35m[39m
+2025-01-03 15:53:53:5353 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:53:53:5353 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:55:18:5518 [35mhttp[39m: [35mGET /api-docs/ 304 - - 8.702 ms[39m
+[35m[39m
+2025-01-03 15:55:18:5518 [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 304 - - 1.509 ms[39m
+[35m[39m
+2025-01-03 15:55:18:5518 [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 304 - - 1.631 ms[39m
+[35m[39m
+2025-01-03 15:55:18:5518 [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 304 - - 2.414 ms[39m
+[35m[39m
+2025-01-03 15:55:18:5518 [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 304 - - 0.231 ms[39m
+[35m[39m
+2025-01-03 15:55:18:5518 [35mhttp[39m: [35mGET /api-docs/favicon-32x32.png 304 - - 0.719 ms[39m
+[35m[39m
+2025-01-03 15:55:26:5526 [35mhttp[39m: [35mGET /api-docs/ 304 - - 1.403 ms[39m
+[35m[39m
+2025-01-03 15:55:26:5526 [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 304 - - 0.796 ms[39m
+[35m[39m
+2025-01-03 15:55:26:5526 [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 304 - - 1.452 ms[39m
+[35m[39m
+2025-01-03 15:55:26:5526 [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 304 - - 1.943 ms[39m
+[35m[39m
+2025-01-03 15:55:26:5526 [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 304 - - 0.339 ms[39m
+[35m[39m
+2025-01-03 15:55:40:5540 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:55:40:5540 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:55:44:5544 [35mhttp[39m: [35mGET /api-docs/ 304 - - 3.504 ms[39m
+[35m[39m
+2025-01-03 15:55:44:5544 [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 304 - - 0.654 ms[39m
+[35m[39m
+2025-01-03 15:55:44:5544 [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 304 - - 0.603 ms[39m
+[35m[39m
+2025-01-03 15:55:44:5544 [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 304 - - 0.860 ms[39m
+[35m[39m
+2025-01-03 15:55:44:5544 [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 200 10585 - 0.356 ms[39m
+[35m[39m
+2025-01-03 15:55:44:5544 [35mhttp[39m: [35mGET /api-docs/favicon-32x32.png 304 - - 0.527 ms[39m
+[35m[39m
+2025-01-03 16:05:04:54 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:05:04:54 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:06:13:613 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:06:13:613 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:06:15:615 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:06:15:615 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:19:26:1926 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:19:26:1926 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:24:28:2428 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:24:28:2428 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:25:20:2520 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:25:20:2520 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:25:27:2527 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:25:27:2527 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:25:39:2539 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:25:39:2539 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:25:43:2543 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:25:43:2543 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:25:50:2550 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:25:50:2550 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:29:55:2955 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:29:55:2955 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:30:04:304 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:30:04:304 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:30:45:3045 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:30:45:3045 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:30:52:3052 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:30:52:3052 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:31:04:314 [35mhttp[39m: [35mGET /api-docs/ 304 - - 3.788 ms[39m
+[35m[39m
+2025-01-03 16:31:04:314 [35mhttp[39m: [35mGET /api-docs/swagger-ui.css 304 - - 0.629 ms[39m
+[35m[39m
+2025-01-03 16:31:04:314 [35mhttp[39m: [35mGET /api-docs/swagger-ui-standalone-preset.js 304 - - 0.541 ms[39m
+[35m[39m
+2025-01-03 16:31:04:314 [35mhttp[39m: [35mGET /api-docs/swagger-ui-bundle.js 304 - - 1.577 ms[39m
+[35m[39m
+2025-01-03 16:31:04:314 [35mhttp[39m: [35mGET /api-docs/swagger-ui-init.js 304 - - 0.260 ms[39m
+[35m[39m
+2025-01-03 16:31:04:314 [35mhttp[39m: [35mGET /api-docs/favicon-32x32.png 304 - - 0.712 ms[39m
+[35m[39m
+2025-01-03 16:31:49:3149 [35mhttp[39m: [35mGET /api/device 200 74 - 133.850 ms[39m
+[35m[39m
+2025-01-03 16:33:20:3320 [31merror[39m: [31mError saving profile image for user with ID 6777dab6e1cd8121a3026b54: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:33:20:3320 [31merror[39m: [31mError updating user profile: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:33:20:3320 [35mhttp[39m: [35mPATCH /api/user/upload/6777dab6e1cd8121a3026b54 500 74 - 5.966 ms[39m
+[35m[39m
+2025-01-03 16:33:59:3359 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:33:59:3359 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:34:03:343 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:34:03:343 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:34:07:347 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:34:07:347 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:34:10:3410 [31merror[39m: [31mError saving profile image for user with ID 6777dab6e1cd8121a3026b54: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:34:10:3410 [31merror[39m: [31mError updating user profile: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:34:10:3410 [35mhttp[39m: [35mPATCH /api/user/upload/6777dab6e1cd8121a3026b54 500 74 - 4.481 ms[39m
+[35m[39m
+2025-01-03 16:34:27:3427 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:34:27:3427 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 16:34:29:3429 [31merror[39m: [31mError saving profile image for user with ID 6777dab6e1cd8121a3026b54: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:34:29:3429 [31merror[39m: [31mError updating user profile: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:34:29:3429 [35mhttp[39m: [35mPATCH /api/user/upload/6777dab6e1cd8121a3026b54 500 74 - 5.608 ms[39m
+[35m[39m
+2025-01-03 16:34:40:3440 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 16:34:40:3440 [37mdebug[39m: [37mServer running on port 3000[39m

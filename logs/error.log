@@ -26,3 +26,9 @@
 2025-01-03 14:34:17:3417 [31merror[39m: [31mUser with email moise@gmail.com not found.[39m
 2025-01-03 14:39:36:3936 [31merror[39m: [31mUser not found[39m
 2025-01-03 15:34:18:3418 [31merror[39m: [31mUser already exists with this email[39m
+2025-01-03 16:33:20:3320 [31merror[39m: [31mError saving profile image for user with ID 6777dab6e1cd8121a3026b54: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:33:20:3320 [31merror[39m: [31mError updating user profile: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:34:10:3410 [31merror[39m: [31mError saving profile image for user with ID 6777dab6e1cd8121a3026b54: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:34:10:3410 [31merror[39m: [31mError updating user profile: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:34:29:3429 [31merror[39m: [31mError saving profile image for user with ID 6777dab6e1cd8121a3026b54: TypeError: Cannot read properties of undefined (reading 'filename')[39m
+2025-01-03 16:34:29:3429 [31merror[39m: [31mError updating user profile: TypeError: Cannot read properties of undefined (reading 'filename')[39m
