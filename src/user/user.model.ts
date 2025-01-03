@@ -1,6 +1,6 @@
 import mongoose, { Schema, Document } from "mongoose";
 
-interface Device {
+export interface Device {
   deviceId: string;
   deviceName: string;
   lastUsed: Date;
