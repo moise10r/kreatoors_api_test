@@ -2,6 +2,7 @@ import mongoose, { Schema, Document } from "mongoose";
 
 interface Device {
   deviceId: string;
+  deviceName: string;
   lastUsed: Date;
 }
 
@@ -20,7 +21,7 @@ const UserSchema: Schema = new Schema({
   password: { type: String, required: true },
   profileImage: { type: String },
   isVerified: { type: Boolean, default: false },
-  devices: [{ deviceId: String, lastUsed: Date }]
+  devices: [{ deviceId: String, deviceName: String, lastUsed: Date }],
 });
 
 export default mongoose.model<IUser>("User", UserSchema);

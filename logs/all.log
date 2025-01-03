@@ -1,0 +1,118 @@
+2025-01-03 08:46:34:4634 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 08:49:35:4935 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 08:51:51:5151 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 08:52:05:525 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:11:59:1159 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:12:07:127 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:12:10:1210 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:12:38:1238 [35mhttp[39m: [35mGET / 404 139 - 1.705 ms[39m
+[35m[39m
+2025-01-03 09:13:29:1329 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:13:32:1332 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:13:46:1346 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:14:09:149 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:14:11:1411 [35mhttp[39m: [35mGET / 404 139 - 0.941 ms[39m
+[35m[39m
+2025-01-03 09:14:22:1422 [35mhttp[39m: [35mGET /api 200 5 - 2.611 ms[39m
+[35m[39m
+2025-01-03 09:15:33:1533 [35mhttp[39m: [35mPOST /api/register 500 32 - 241.510 ms[39m
+[35m[39m
+2025-01-03 09:16:26:1626 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:16:29:1629 [35mhttp[39m: [35mPOST /api/register 500 32 - 226.622 ms[39m
+[35m[39m
+2025-01-03 09:16:43:1643 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:16:53:1653 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:16:56:1656 [31merror[39m: [31merr E11000 duplicate key error collection: user-management.users index: email_1 dup key: { email: "moise@gmail.com" }[39m
+2025-01-03 09:16:56:1656 [35mhttp[39m: [35mPOST /api/register 500 32 - 264.318 ms[39m
+[35m[39m
+2025-01-03 09:17:28:1728 [31merror[39m: [31merr secretOrPrivateKey must have a value[39m
+2025-01-03 09:17:28:1728 [35mhttp[39m: [35mPOST /api/register 500 32 - 225.931 ms[39m
+[35m[39m
+2025-01-03 09:18:34:1834 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:19:07:197 [31merror[39m: [31merr secretOrPrivateKey must have a value[39m
+2025-01-03 09:19:07:197 [35mhttp[39m: [35mPOST /api/register 500 32 - 229.609 ms[39m
+[35m[39m
+2025-01-03 09:19:37:1937 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:20:52:2052 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:21:05:215 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:21:21:2121 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:22:34:2234 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:22:45:2245 [31merror[39m: [31merr secretOrPrivateKey must have a value[39m
+2025-01-03 09:22:45:2245 [35mhttp[39m: [35mPOST /api/register 500 32 - 215.837 ms[39m
+[35m[39m
+2025-01-03 09:23:00:230 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:24:26:2426 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:25:36:2536 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:25:47:2547 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:26:09:269 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:26:20:2620 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:26:30:2630 [35mhttp[39m: [35mPOST /api/register 201 216 - 202.234 ms[39m
+[35m[39m
+2025-01-03 09:30:03:303 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:30:08:308 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:30:14:3014 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:30:16:3016 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:30:36:3036 [35mhttp[39m: [35mPOST /api/register 201 216 - 212.671 ms[39m
+[35m[39m
+2025-01-03 09:32:18:3218 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:50:20:5020 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:52:53:5253 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:52:55:5255 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:53:16:5316 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:53:29:5329 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:53:34:5334 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:53:44:5344 [31merror[39m: [31mUser already exists with this email[39m
+2025-01-03 09:53:44:5344 [35mhttp[39m: [35mPOST /api/register 409 96 - 150.572 ms[39m
+[35m[39m
+2025-01-03 09:54:47:5447 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:55:17:5517 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:55:31:5531 [35mhttp[39m: [35mPOST /api/register 201 42 - 366.184 ms[39m
+[35m[39m
+2025-01-03 09:55:57:5557 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:56:00:560 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:58:18:5818 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:58:21:5821 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:58:25:5825 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 09:58:28:5828 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 10:03:49:349 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 10:03:58:358 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 10:04:06:46 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 10:05:32:532 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 10:06:06:66 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 10:20:43:2043 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 10:21:36:2136 [35mhttp[39m: [35mPOST /api/login 200 30 - 427.445 ms[39m
+[35m[39m
+2025-01-03 10:22:29:2229 [35mhttp[39m: [35mPOST /api/login 200 30 - 365.484 ms[39m
+[35m[39m
+2025-01-03 10:23:10:2310 [31merror[39m: [31mInvalid password attempt for email moise@gmail.com.[39m
+2025-01-03 10:23:10:2310 [35mhttp[39m: [35mPOST /api/login 401 31 - 218.853 ms[39m
+[35m[39m
+2025-01-03 10:23:19:2319 [31merror[39m: [31mUser with email moise@gmaile.com not found.[39m
+2025-01-03 10:23:19:2319 [35mhttp[39m: [35mPOST /api/login 404 26 - 143.997 ms[39m
+[35m[39m
+2025-01-03 10:24:44:2444 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 10:26:31:2631 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 10:29:52:2952 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:05:51:551 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:07:51:751 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:09:01:91 [35mhttp[39m: [35mPOST /api/login 404 149 - 0.630 ms[39m
+[35m[39m
+2025-01-03 11:09:44:944 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:09:55:955 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:10:05:105 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:10:15:1015 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:10:26:1026 [35mhttp[39m: [35mPOST /api/login 404 149 - 0.582 ms[39m
+[35m[39m
+2025-01-03 11:10:58:1058 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:11:04:114 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:11:07:117 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:11:24:1124 [35mhttp[39m: [35mPOST /api/login 404 149 - 0.541 ms[39m
+[35m[39m
+2025-01-03 11:13:09:139 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:13:16:1316 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:13:19:1319 [35mhttp[39m: [35mPOST /api/login 200 30 - 404.270 ms[39m
+[35m[39m
+2025-01-03 11:14:10:1410 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:24:44:2444 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:26:09:269 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:27:07:277 [37mdebug[39m: [37mServer running on port 3000[39m
