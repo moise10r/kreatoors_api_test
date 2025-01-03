@@ -1,21 +1,17 @@
-import express, { Router } from "express";
 import dotenv from "dotenv";
+dotenv.config();
+
+import express from "express";
 import mongoose from "mongoose";
 import Logger from "./lib/logger";
 import morganMiddleware from "./config/morganMiddleware";
-
-dotenv.config();
+import router from "./routes";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(morganMiddleware);
-const router = Router();
-
-router.get("/", (req, res) => {
-  res.send({ message: "WELCOME" });
-});
 
 app.use("/api", router);
 
