@@ -5,3 +5,24 @@
 2025-01-03 09:53:44:5344 [31merror[39m: [31mUser already exists with this email[39m
 2025-01-03 10:23:10:2310 [31merror[39m: [31mInvalid password attempt for email moise@gmail.com.[39m
 2025-01-03 10:23:19:2319 [31merror[39m: [31mUser with email moise@gmaile.com not found.[39m
+2025-01-03 11:53:19:5319 [31merror[39m: [31mAt least one of username or email must be provided[39m
+2025-01-03 11:53:50:5350 [31merror[39m: [31mAt least one of username or email must be provided[39m
+2025-01-03 12:25:10:2510 [31merror[39m: [31mCast to ObjectId failed for value "677797f2985effd0c7bf9c4es" (type string) at path "_id" for model "User"[39m
+2025-01-03 12:25:35:2535 [31merror[39m: [31mCast to ObjectId failed for value "677797f2985effd0c7bf9c4es" (type string) at path "_id" for model "User"[39m
+2025-01-03 12:26:39:2639 [31merror[39m: [31mCast to ObjectId failed for value "677797f2985effd0c7bf9c4es" (type string) at path "_id" for model "User"[39m
+2025-01-03 12:28:34:2834 [31merror[39m: [31mCast to ObjectId failed for value "677797f2985effd0c7bf9c4s" (type string) at path "_id" for model "User"[39m
+2025-01-03 12:29:42:2942 [31merror[39m: [31mUser with ID 64fdfbc2964f8d176c890e52 not found.[39m
+2025-01-03 12:29:42:2942 [31merror[39m: [31mUser not found[39m
+2025-01-03 12:31:27:3127 [31merror[39m: [31mCast to ObjectId failed for value "677797f2985effd0c7bf9c4" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:29:33:2933 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:43:43:4343 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:46:57:4657 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:47:16:4716 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:48:07:487 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:48:46:4846 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 14:28:54:2854 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 14:30:39:3039 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 14:34:08:348 [31merror[39m: [31mUser not found[39m
+2025-01-03 14:34:17:3417 [31merror[39m: [31mUser with email moise@gmail.com not found.[39m
+2025-01-03 14:39:36:3936 [31merror[39m: [31mUser not found[39m
+2025-01-03 15:34:18:3418 [31merror[39m: [31mUser already exists with this email[39m

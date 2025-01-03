@@ -1,11 +1,12 @@
+// src/device/device.module.ts
 import { Router } from "express";
-import { DeviceController } from "./device.controller";
-import { authenticate } from "../common/middlewares";
+import { DeviceRouter } from "./device.routes";
 
-const deviceController = new DeviceController();
+export class DeviceModule {
+  public router: Router;
 
-const router = Router();
-
-router.get("/", authenticate, deviceController.getDevices);
-router.post("/logout", authenticate, deviceController.logoutDevice);
-export default router;
+  constructor() {
+    const deviceRouter = new DeviceRouter();
+    this.router = deviceRouter.router;
+  }
+}

@@ -1,11 +1,11 @@
 import { Router } from "express";
-import { UserController } from "./user.controller";
-import { authenticate } from "../common/middlewares";
+import { UserRouter } from "./user.routes";
 
-const userController = new UserController();
+export class UserModule {
+  public router: Router;
 
-const router = Router();
-
-router.get("/:userId", authenticate, userController.getProfile);
-router.patch("/:userId", authenticate, userController.updateProfile);
-export default router;
+  constructor() {
+    const userRouter = new UserRouter();
+    this.router = userRouter.router;
+  }
+}

@@ -116,3 +116,239 @@
 2025-01-03 11:24:44:2444 [37mdebug[39m: [37mServer running on port 3000[39m
 2025-01-03 11:26:09:269 [37mdebug[39m: [37mServer running on port 3000[39m
 2025-01-03 11:27:07:277 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:44:29:4429 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:44:32:4432 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 404 173 - 0.712 ms[39m
+[35m[39m
+2025-01-03 11:46:27:4627 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:46:31:4631 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:46:50:4650 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:46:53:4653 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:46:57:4657 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 404 173 - 0.593 ms[39m
+[35m[39m
+2025-01-03 11:47:14:4714 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:47:15:4715 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 200 470 - 135.618 ms[39m
+[35m[39m
+2025-01-03 11:47:47:4747 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:52:26:5226 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:53:19:5319 [31merror[39m: [31mAt least one of username or email must be provided[39m
+2025-01-03 11:53:19:5319 [35mhttp[39m: [35mPATCH /api/users/677797f2985effd0c7bf9c4e 400 115 - 1.882 ms[39m
+[35m[39m
+2025-01-03 11:53:45:5345 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:53:47:5347 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:53:50:5350 [31merror[39m: [31mAt least one of username or email must be provided[39m
+2025-01-03 11:53:50:5350 [35mhttp[39m: [35mPATCH /api/users/677797f2985effd0c7bf9c4e 400 115 - 2.851 ms[39m
+[35m[39m
+2025-01-03 11:54:02:542 [35mhttp[39m: [35mPATCH /api/users/677797f2985effd0c7bf9c4e 200 479 - 158.943 ms[39m
+[35m[39m
+2025-01-03 11:54:13:5413 [35mhttp[39m: [35mPATCH /api/users/677797f2985effd0c7bf9c4e 200 470 - 179.468 ms[39m
+[35m[39m
+2025-01-03 11:54:24:5424 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 11:54:26:5426 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 200 470 - 139.730 ms[39m
+[35m[39m
+2025-01-03 11:54:32:5432 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:01:44:144 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:03:25:325 [35mhttp[39m: [35mPOST /api/auth/login 200 30 - 405.393 ms[39m
+[35m[39m
+2025-01-03 12:03:47:347 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 401 1559 - 5.584 ms[39m
+[35m[39m
+2025-01-03 12:05:34:534 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:05:37:537 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 401 1559 - 2.822 ms[39m
+[35m[39m
+2025-01-03 12:05:44:544 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 401 1559 - 1.821 ms[39m
+[35m[39m
+2025-01-03 12:05:56:556 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:06:31:631 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 401 1559 - 3.626 ms[39m
+[35m[39m
+2025-01-03 12:16:52:1652 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:16:58:1658 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 401 1559 - 2.887 ms[39m
+[35m[39m
+2025-01-03 12:17:32:1732 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:17:34:1734 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 500 171 - 0.844 ms[39m
+[35m[39m
+2025-01-03 12:17:58:1758 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:19:48:1948 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:21:02:212 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:21:30:2130 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 400 27 - 1.033 ms[39m
+[35m[39m
+2025-01-03 12:24:02:242 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:24:07:247 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:24:10:2410 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 500 70 - 1.055 ms[39m
+[35m[39m
+2025-01-03 12:24:51:2451 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:24:58:2458 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:25:01:251 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 200 543 - 168.040 ms[39m
+[35m[39m
+2025-01-03 12:25:10:2510 [31merror[39m: [31mCast to ObjectId failed for value "677797f2985effd0c7bf9c4es" (type string) at path "_id" for model "User"[39m
+2025-01-03 12:25:10:2510 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4es 500 70 - 4.622 ms[39m
+[35m[39m
+2025-01-03 12:25:15:2515 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 200 543 - 140.200 ms[39m
+[35m[39m
+2025-01-03 12:25:29:2529 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:25:33:2533 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 200 543 - 166.071 ms[39m
+[35m[39m
+2025-01-03 12:25:35:2535 [31merror[39m: [31mCast to ObjectId failed for value "677797f2985effd0c7bf9c4es" (type string) at path "_id" for model "User"[39m
+2025-01-03 12:25:35:2535 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4es 500 70 - 2.973 ms[39m
+[35m[39m
+2025-01-03 12:26:35:2635 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:26:39:2639 [31merror[39m: [31mCast to ObjectId failed for value "677797f2985effd0c7bf9c4es" (type string) at path "_id" for model "User"[39m
+2025-01-03 12:26:39:2639 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4es 500 70 - 3.639 ms[39m
+[35m[39m
+2025-01-03 12:28:34:2834 [31merror[39m: [31mCast to ObjectId failed for value "677797f2985effd0c7bf9c4s" (type string) at path "_id" for model "User"[39m
+2025-01-03 12:28:34:2834 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4s 500 70 - 4.559 ms[39m
+[35m[39m
+2025-01-03 12:29:42:2942 [31merror[39m: [31mUser with ID 64fdfbc2964f8d176c890e52 not found.[39m
+2025-01-03 12:29:42:2942 [31merror[39m: [31mUser not found[39m
+2025-01-03 12:29:42:2942 [35mhttp[39m: [35mGET /api/users/64fdfbc2964f8d176c890e52 404 72 - 146.284 ms[39m
+[35m[39m
+2025-01-03 12:30:00:300 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:30:02:302 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:30:06:306 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:31:27:3127 [31merror[39m: [31mCast to ObjectId failed for value "677797f2985effd0c7bf9c4" (type string) at path "_id" for model "User"[39m
+2025-01-03 12:31:27:3127 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4 500 70 - 6.138 ms[39m
+[35m[39m
+2025-01-03 12:31:33:3133 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 200 543 - 131.564 ms[39m
+[35m[39m
+2025-01-03 12:31:56:3156 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:31:59:3159 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 500 171 - 0.855 ms[39m
+[35m[39m
+2025-01-03 12:32:14:3214 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:32:16:3216 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:32:18:3218 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 500 70 - 1.029 ms[39m
+[35m[39m
+2025-01-03 12:34:52:3452 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:35:02:352 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 401 85 - 1.035 ms[39m
+[35m[39m
+2025-01-03 12:36:39:3639 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 401 85 - 1.079 ms[39m
+[35m[39m
+2025-01-03 12:37:41:3741 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:37:44:3744 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 401 85 - 1.197 ms[39m
+[35m[39m
+2025-01-03 12:38:25:3825 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:44:46:4446 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 200 543 - 184.289 ms[39m
+[35m[39m
+2025-01-03 12:45:19:4519 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 12:45:24:4524 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 401 65 - 1.963 ms[39m
+[35m[39m
+2025-01-03 12:45:32:4532 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 200 543 - 182.782 ms[39m
+[35m[39m
+2025-01-03 13:16:59:1659 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:26:54:2654 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:26:58:2658 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:27:07:277 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:27:27:2727 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:28:45:2845 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:28:52:2852 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:28:56:2856 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:29:01:291 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:29:17:2917 [35mhttp[39m: [35mGET /api/users/devices 401 85 - 1.414 ms[39m
+[35m[39m
+2025-01-03 13:29:33:2933 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:29:33:2933 [35mhttp[39m: [35mGET /api/users/devices 500 70 - 5.115 ms[39m
+[35m[39m
+2025-01-03 13:43:43:4343 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:43:43:4343 [35mhttp[39m: [35mGET /api/users/devices 500 70 - 3.873 ms[39m
+[35m[39m
+2025-01-03 13:44:11:4411 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:46:02:462 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:46:05:465 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:46:07:467 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:46:11:4611 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:46:56:4656 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:46:57:4657 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:46:57:4657 [35mhttp[39m: [35mGET /api/users/devices 500 70 - 4.627 ms[39m
+[35m[39m
+2025-01-03 13:47:14:4714 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:47:16:4716 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:47:16:4716 [35mhttp[39m: [35mGET /api/users/devices 500 70 - 7.817 ms[39m
+[35m[39m
+2025-01-03 13:47:49:4749 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:47:54:4754 [35mhttp[39m: [35mGET /api/users/677797f2985effd0c7bf9c4e 200 543 - 162.482 ms[39m
+[35m[39m
+2025-01-03 13:48:07:487 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:48:07:487 [35mhttp[39m: [35mGET /api/users/devices 500 70 - 4.985 ms[39m
+[35m[39m
+2025-01-03 13:48:40:4840 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:48:43:4843 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 13:48:46:4846 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 13:48:46:4846 [35mhttp[39m: [35mGET /api/users/devices 500 70 - 4.705 ms[39m
+[35m[39m
+2025-01-03 13:49:28:4928 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:13:12:1312 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:20:21:2021 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:28:54:2854 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 14:28:54:2854 [35mhttp[39m: [35mGET /api/users/devices 500 70 - 6.088 ms[39m
+[35m[39m
+2025-01-03 14:29:15:2915 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:29:24:2924 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:29:27:2927 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:29:49:2949 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:30:06:306 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:30:30:3030 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:30:39:3039 [31merror[39m: [31mCast to ObjectId failed for value "devices" (type string) at path "_id" for model "User"[39m
+2025-01-03 14:30:39:3039 [35mhttp[39m: [35mGET /api/users/devices 500 70 - 7.279 ms[39m
+[35m[39m
+2025-01-03 14:31:05:315 [35mhttp[39m: [35mGET /api/devices 200 352 - 183.153 ms[39m
+[35m[39m
+2025-01-03 14:33:58:3358 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:34:08:348 [31merror[39m: [31mUser not found[39m
+2025-01-03 14:34:08:348 [35mhttp[39m: [35mGET /api/devices 500 70 - 132.959 ms[39m
+[35m[39m
+2025-01-03 14:34:17:3417 [31merror[39m: [31mUser with email moise@gmail.com not found.[39m
+2025-01-03 14:34:17:3417 [35mhttp[39m: [35mPOST /api/auth/login 404 26 - 168.401 ms[39m
+[35m[39m
+2025-01-03 14:39:36:3936 [31merror[39m: [31mUser not found[39m
+2025-01-03 14:39:36:3936 [35mhttp[39m: [35mGET /api/devices 500 70 - 195.718 ms[39m
+[35m[39m
+2025-01-03 14:40:23:4023 [35mhttp[39m: [35mPOST /api/auth/register 201 42 - 363.895 ms[39m
+[35m[39m
+2025-01-03 14:40:49:4049 [35mhttp[39m: [35mGET /api/devices 401 62 - 2.510 ms[39m
+[35m[39m
+2025-01-03 14:41:00:410 [35mhttp[39m: [35mGET /api/devices 401 62 - 1.417 ms[39m
+[35m[39m
+2025-01-03 14:41:22:4122 [35mhttp[39m: [35mGET /api/devices 401 62 - 1.911 ms[39m
+[35m[39m
+2025-01-03 14:41:32:4132 [35mhttp[39m: [35mGET /api/devices 401 62 - 1.344 ms[39m
+[35m[39m
+2025-01-03 14:44:53:4453 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:44:56:4456 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:44:59:4459 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:45:01:451 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:45:15:4515 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:45:31:4531 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 14:46:02:462 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:03:37:337 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:32:09:329 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:32:09:329 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:32:15:3215 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:32:15:3215 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:32:24:3224 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:32:24:3224 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:32:26:3226 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:32:26:3226 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:32:32:3232 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:32:32:3232 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:32:47:3247 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:32:47:3247 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:32:50:3250 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:32:50:3250 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:32:58:3258 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:32:58:3258 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:33:11:3311 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:33:11:3311 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:33:16:3316 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:33:16:3316 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:33:37:3337 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:33:37:3337 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:33:55:3355 [37mdebug[39m: [37mMongoDB connected successfully[39m
+2025-01-03 15:33:55:3355 [37mdebug[39m: [37mServer running on port 3000[39m
+2025-01-03 15:34:18:3418 [31merror[39m: [31mUser already exists with this email[39m
+2025-01-03 15:34:18:3418 [35mhttp[39m: [35mPOST /api/auth/register 409 96 - 174.403 ms[39m
+[35m[39m
+2025-01-03 15:34:26:3426 [35mhttp[39m: [35mPOST /api/auth/register 201 42 - 354.686 ms[39m
+[35m[39m
+2025-01-03 15:34:43:3443 [35mhttp[39m: [35mPOST /api/auth/login 200 30 - 388.386 ms[39m
+[35m[39m
+2025-01-03 15:35:19:3519 [35mhttp[39m: [35mGET /api/devices 404 150 - 1.167 ms[39m
+[35m[39m
+2025-01-03 15:35:57:3557 [35mhttp[39m: [35mGET /api/device 401 50 - 1.046 ms[39m
+[35m[39m
