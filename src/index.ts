@@ -4,9 +4,9 @@ dotenv.config();
 import express from "express";
 import mongoose from "mongoose";
 import Logger from "./common/logger/logger";
-import morganMiddleware from "./common/middlewares/morgan.middleware";
 import authRouter from "./auth/auth.module";
 import userRouter from "./user/user.module";
+import { errorHandler, morganMiddleware } from "./common/middlewares";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -16,6 +16,9 @@ app.use(morganMiddleware);
 
 app.use("/api/auth", authRouter);
 app.use("/api/users", userRouter);
+
+app.use(errorHandler);
+
 mongoose
   .connect(process.env.MONGO_URI!)
   .then(() => {
