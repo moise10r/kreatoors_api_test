@@ -2,6 +2,8 @@ import { Request, Response } from "express";
 import Logger from "../common/logger/logger";
 import { NotFoundError, ValidationError } from "../common/error/error";
 import { UserService } from "./user.service";
+import { upload } from "../common/middlewares";
+import { IUser } from "./user.model";
 
 export class UserController {
   private userService: UserService;
@@ -63,5 +65,38 @@ export class UserController {
         });
       }
     }
+  };
+
+  public uploadProfileImage = async (
+    req: Request,
+    res: Response
+  ): Promise<void> => {
+    upload.single("profileImage")(req, res, async (err: any) => {
+      if (err) {
+        Logger.error(`Error uploading file: ${err}`);
+        return res
+          .status(400)
+          .json({ errorCode: "UPLOAD_ERROR", message: "Error uploading file" });
+      }
+
+      const { userId } = req.params;
+
+      try {
+        const updatedUser: IUser = await this.userService.saveProfileImage(
+          userId,
+          req.file!
+        );
+        res.status(200).json({
+          message: "Profile image uploaded successfully",
+          user: updatedUser,
+        });
+      } catch (err) {
+        Logger.error(`Error updating user profile: ${err}`);
+        res.status(500).json({
+          errorCode: "INTERNAL_SERVER_ERROR",
+          message: "Failed to update profile",
+        });
+      }
+    });
   };
 }
